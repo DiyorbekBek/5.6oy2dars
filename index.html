@@ -24,15 +24,25 @@
         <h2>
           <i class="title" id="title">Eminem - Mockingbird</i>
         </h2>
+        <!-- ncpa.cpl -->
         <div class="vioce-control">
           <button class="vioce" id="vioce">
             <i class="fa-solid fa-volume-high"></i>
           </button>
-          <input id="music-voice" type="range" />
+          <input id="music-voice" type="range" min="0" max="100" value="10 " />
+        </div>
+        <div class="secTime">
+          <h4 id="sec"></h4>
+          <h4 id="time"></h4>
+        </div>
+        <div id="progress" class="duration">
+          <div id="inner-progress" class="progress"></div>
         </div>
         <div class="controls">
           <button id="previous"><i class="fa-solid fa-backward"></i></button>
-          <button id="play"><i class="fa-solid fa-play"></i></button>
+          <button id="play">
+            <i id="playIcon" class="fa-solid fa-play"></i>
+          </button>
           <button id="forward"><i class="fa-solid fa-forward"></i></button>
         </div>
       </div>

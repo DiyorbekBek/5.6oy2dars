@@ -65,7 +65,6 @@ body {
   margin-bottom: 10px;
 }
 
-
 .vioce {
   cursor: pointer;
   font-size: 18px;
@@ -91,8 +90,6 @@ h1 {
   font-family: "Ubuntu";
   color: azure;
 }
-
-
 
 .controls {
   display: flex;
@@ -124,4 +121,27 @@ h1 {
   color: black;
   border-radius: 50%;
   font-size: 35px;
+}
+
+.secTime {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #aeaaaa;
+}
+
+.duration {
+  margin: 5px;
+  height: 6px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.duration .progress {
+  width: 0%;
+  height: inherit;
+  background-color: blue;
+  border-radius: inherit;
+  transition: 0.3s ease-in-out;
 }
